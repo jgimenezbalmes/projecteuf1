@@ -1,5 +1,9 @@
 package APIRest.repositoris;
 
-public interface AlumneRepositori {
+import org.springframework.data.repository.CrudRepository;
+
+import APIRest.entitats.Alumne;
+
+public interface AlumneRepositori extends CrudRepository<Alumne, Long> {
 
 }
