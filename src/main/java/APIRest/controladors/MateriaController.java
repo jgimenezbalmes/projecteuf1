@@ -1,5 +1,5 @@
 package APIRest.controladors;
 
-public class APIController {
+public class MateriaController {
 
 }
