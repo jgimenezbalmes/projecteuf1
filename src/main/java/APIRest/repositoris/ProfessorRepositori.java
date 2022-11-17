@@ -1,5 +1,9 @@
 package APIRest.repositoris;
 
-public interface ProfessorRepositori {
+import org.springframework.data.repository.CrudRepository;
+
+import APIRest.entitats.Professor;
+
+public interface ProfessorRepositori extends CrudRepository<Professor, Long> {
 
 }
