@@ -23,8 +23,8 @@ public class MateriaController {
 
     @GetMapping("materias/{id}")
     public Materia getMateria(@PathVariable long id) {
-        Materia client = materiaRep.findById(id).get();
+        Materia materia = materiaRep.findById(id).get();
 
-        return client;
+        return materia;
     }
 }
